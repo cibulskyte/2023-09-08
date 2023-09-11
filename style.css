@@ -1,0 +1,135 @@
+:root {
+--primary-color:#111111;
+--secondary-color: #555555;
+--thirdy-color:#FF3998;
+
+}
+*: *::before, *::after {
+    box-sizing:border-box;
+}
+.container {
+    margin:70px 80px;
+    width:1440px;
+}
+.logo p {
+font-family: 'Varela Round', sans-serif;
+color:var(--primary-color);
+font-size:28px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 1.4px;
+}
+.logo {
+    display:flex;
+    column-gap: 15px;
+}
+.header {
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+
+}
+ul.header-items-list {
+    display: inline-flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 28px;
+}
+li.header-item {
+    color:var(--secondary-color);
+    
+}
+li.header-item,
+li.header-item.diferent-color-item {
+    list-style-type:none;
+    text-transform:capitalize;
+    font-family: 'Inter', sans-serif;
+}
+li.header-item.diferent-color-item {
+    color:var(--thirdy-color);
+}
+h2 {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    color:pink;
+}
+h1 {
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+span.name {
+    text-transform:uppercase;
+}
+p.hero-main-paragraph {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+}
+.hero {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap:181px;
+}
+button.sign-up {
+    padding: 10px 30px 10px 30px;
+    background-color: transparent;
+    border-radius: 100px;
+    border-color: orange;
+    border-width: 3px;
+}
+.hero-box-image img.main-image {
+    height:519px;
+    width:328px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 208px;
+}
+.first-footer-list {
+     list-style-type: none;
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+}
+.showcase {
+    width:290px;
+    height:278px;
+}
+
+.cost {
+    display: flex;
+    grid-column-gap: 10px;
+    align-items:center;
+}
+.cost img {
+    width: 13px;
+    height: 22px;
+}
+.boxer {
+    display: flex;
+    column-gap: 10px;
+}
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.footer-right {
+    display: flex;
+    column-gap: 20px;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+}
+ul.footer-item-list {
+    list-style-type:none;
+}
